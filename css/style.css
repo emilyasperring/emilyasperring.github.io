@@ -16,7 +16,7 @@ a:hover {
 h1 {
     margin: 0%;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 42px;
+    font-size: 30px;
     color: #233130;
     text-align: center;
 }
@@ -114,6 +114,9 @@ footer a:hover {
 
 .splash h1 {
     padding-top: 270px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .splash h2 {
     padding-bottom: 0;
@@ -152,6 +155,22 @@ footer a:hover {
     width: 100px;
     right: 10px;
     top: 10px;
+}
+
+.name span {
+    display: inline-block;
+    
+}
+
+.name span:hover {
+    animation-name: animate-letters;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-letters {
+  0%, 100% {transform: translateY(-5px)}
+  25% {color: #85937D}
 }
 
 
